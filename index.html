@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Space Invaders (Mini)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Space Invaders (Mini)</h1>
+    <canvas id="game" width="600" height="480"></canvas>
+    <div id="hud">
+      <span id="score">Score: 0</span>
+      <span id="lives">Lives: 3</span>
+      <div class="hud-controls">
+        <button id="toggle-music">Music: On</button>
+        <button id="toggle-sfx">SFX: On</button>
+        <button id="restart">Restart</button>
+      </div>
+    </div>
+    <p class="controls">Controls: ← → to move, Space to shoot</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

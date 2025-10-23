@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+body { background: #0b1220; color: #e6f0ff; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin: 0; padding: 20px; }
+.container { max-width: 760px; margin: 0 auto; text-align: center; }
+h1 { margin: 0 0 12px; }
+canvas { background: #020614; display: block; margin: 14px auto; border: 3px solid #1f6feb; box-shadow: 0 8px 30px rgba(0,0,0,0.6); }
+#hud { display: flex; justify-content: center; gap: 16px; align-items: center; margin-top: 8px; }
+#hud span { background: rgba(255,255,255,0.04); padding: 6px 10px; border-radius: 6px; font-weight: 600; }
+#restart { padding: 6px 10px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.08); background: #102d5a; color: #dff0ff; cursor: pointer; }
+.hud-controls { display: flex; gap: 8px; }
+.hud-controls button { padding: 6px 10px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.06); background: #133b63; color: #dff0ff; cursor: pointer; }
+.hud-controls button.toggled-off { background: #3a3a3a; color: #c6d6e6; border-color: rgba(0,0,0,0.2); }
+.controls { margin-top: 6px; color: #9fb7d6; font-size: 13px; }
+.small-muted { font-size: 13px; color: #9fb7d6; }
+/* responsive */
+@media (max-width: 640px) { canvas { width: 100%; height: auto; } }
